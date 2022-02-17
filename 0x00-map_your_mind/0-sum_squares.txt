@@ -4,14 +4,14 @@
 
 START
 
-Declare a variable to store the SUM and initialize it to 0.
+INPUT "Enter Number" into User_Input.
 
-Request INPUT_NUMBER.
+Sum equals 0
 
-for number in range 1 to (INPUT_NUMBER + 1):
-    Multiply the number by itself again
-    Add the product of (number * number) to the SUM.
+FOR number in RANGE 1 to (INPUT_NUMBER + 1) do:
+    result equals number x number.
+    Sum equals result + Sum
 
-Print out the "SUM" of squares for the inputted number.
+display Sum
 
 END
