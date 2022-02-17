@@ -1,0 +1,21 @@
+
+# This program will continuously add a users input and will stop when the users
+# enters a negative value and the sum of all posetive numbers will be printed.
+
+START
+
+Declare variable for SUM and initialize it to 0
+
+While TRUE:
+    Request for user Input
+
+    IF user input is greater than 0:
+        add the user input to the SUM
+        continue
+    
+    ELSE:
+        Break out of the loop.
+
+Print Output SUM of all posetive numbers.
+
+END

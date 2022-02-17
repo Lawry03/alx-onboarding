@@ -1,0 +1,41 @@
+
+# This program will read three number and writes them all in sorted order.
+
+START
+
+Define a Function sort(List of numbers, Ascending or Descending order):
+
+    For index in range starting at the (length of the LIST - 1), ending at 0 and in assending order :
+
+        for number in the range starting at 0 and ending at the index:
+
+            if the first value in the LIST is greater than the second value in the LIST:
+
+                Swap the values making the first value smaller than the second larger.
+                repeat this proccess for each number in the list.
+    
+    return the sorted LIST
+
+
+
+
+Create an empty LIST
+
+Read in FIRST number
+Read in SECOND number
+Read in THIRD number
+
+add FIRST number to the LIST
+add SECOND number to the LIST
+add THIRD number to the LIST
+
+Deterime weather to sort in ASCENDING or DESCENDING order.
+
+if ASCENDING :
+    function sort(LIST of numbers, in ASCENDING order)
+
+else :
+    function sort(LIST of number, in DESCENDING order)
+
+
+END  
