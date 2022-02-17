@@ -1,0 +1,17 @@
+
+# This program will allow ther user to calculate the sum of squares
+# of given input of numbers.
+
+START
+
+Declare a variable to store the SUM and initialize it to 0.
+
+Request INPUT_NUMBER.
+
+for number in range 1 to (INPUT_NUMBER + 1):
+    Multiply the number by itself again
+    Add the product of (number * number) to the SUM.
+
+Print out the "SUM" of squares for the inputted number.
+
+END
